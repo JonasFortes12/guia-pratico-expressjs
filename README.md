@@ -41,6 +41,14 @@ app.listen(PORT, () => {
 - `app.get('/', (req, res) => { ... });`: Define uma rota GET para a raiz do aplicativo. Quando um usuário acessar a URL raiz (`/`), o servidor responderá com "Hello World!".
 - `app.listen(PORT, () => { ... });`: Inicia o servidor e faz com que ele escute na porta definida. Quando o servidor estiver rodando, ele exibirá uma mensagem no console informando a URL onde está acessível.
 
+### Executando o servidor
+Para executar o servidor, abra o terminal integrado do VS Code e execute o comando:
+
+```bash 
+node app.js
+```
+- O servidor será iniciado e você verá a mensagem "Server is running on http://localhost:3000" no console.
+- Abra o navegador e acesse `http://localhost:3000`. Você deverá ver a mensagem "Hello World!" exibida na tela.
 
 
 

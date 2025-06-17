@@ -1,0 +1,24 @@
+{
+  "name": "guia-pratico-expressjs",
+  "version": "1.0.0",
+  "description": "Guia prático para iniciantes no Express JS, um framework minimalista para Node.js para construir aplicações web e APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasFortes12/guia-pratico-expressjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JonasFortes12/guia-pratico-expressjs/issues"
+  },
+  "homepage": "https://github.com/JonasFortes12/guia-pratico-expressjs#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
